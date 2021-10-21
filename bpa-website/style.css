@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#main-header{
+    height: 100vh;
+}
+#stats{
+    display: none;
+}
+#canvas123{
+    position: absolute;
+}
+.carbon-header{
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 75vh;
+}
+#canvas123 {
+    width: 100px;
+    height: 100px;
+}
+#main-title{
+color: white;
+padding-top: 30vh;
+font-size: 10vw;
+font-family: Inter, sans-serif;
+font-weight: 800;
+}
+#section2{
+    height: 1000px;
+    scroll-behavior: smooth;
+    background-color: #4F6367;
+    font-family: Inter, sans-serif;
+}
+#down-arrow{
+    width: 50px;
+    color: white;
+}
+#buttonScroll{
+    position: relative;
+}
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+.align-items-center{
+  background-color: #2c373abe;
+}
+.info{
+  text-align: left;
+  border-left: black;
+  border-left: 5px solid black;
+  font-size: 1.25em;
+  padding-left: 10px;
+  color: #eeefe5;
+  grid-area: 2/2;
+}
+.info-title{
+    text-align: right;
+    border-left: black;
+    font-size: 3em;
+    font-weight: 700 !important;
+    padding-right: 10px;
+    color: #eeefe5;
+    grid-area: 2/1;
+  }
+.info-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#info-row-1{
+    padding-top: 8vh;
+}
+#title{
+    text-align: center;
+    border-left: black;
+    font-size: 4em;
+    font-weight: 700 !important;
+    padding-right: 10px;
+    color: #f7f7f7;
+    grid-area: 2/1;
+    padding-top: 8vh;
+}

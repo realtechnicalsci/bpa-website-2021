@@ -1,0 +1,603 @@
+
+.test {
+  padding-top:
+    1000px;
+}
+
+.filler {
+  padding:
+    100px;
+}
+
+body {
+  overflow:
+    scroll;
+}
+
+.main-title {
+  color:
+    white;
+  font-family:
+    inter,
+    sans-serif;
+  margin-left:
+    auto;
+  margin-right:
+    auto;
+  position:
+    relative;
+}
+
+//animations
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/*=== Basic box styling  ===*/
+
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.two {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.three {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.four {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+.five {
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+.six {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+  animation-delay: 5.5s;
+}
+
+.seven {
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s;
+}
+
+.eight {
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-delay: 7.5s;
+  animation-delay: 7.5s;
+}
+
+
+
+/*=== Animations start here  ===*/
+
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN LEFT ===*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*=== FADE IN UP Big ===*/
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN DOWN Big ===*/
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN LEFT Big ===*/
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN RIGHT Big ===*/
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Demo Purpose Only*/
+/* Demo Purpose Only*/
+
+
+
+
+html,
+body {
+  background-color: var(--system-background) !important;
+}
+
+:root {
+  --dark-00: #121212;
+  --dark-01: #1e1e1e;
+  --dark-02: #232323;
+  --dark-03: #252526;
+  --dark-04: #272727;
+  --dark-06: #2c2c2c;
+  --dark-08: #2e2e2e;
+  --dark-12: #333;
+  --dark-16: #363636;
+  --dark-24: #383838;
+}
+
+body {
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  margin: 0;
+}
+
+#dl-HomePod14 {
+  width: 40%;
+  height: 100%;
+  background: #0071e3;
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+  color: white;
+}
+
+#dl-HomePod14:hover {
+  background: #0077ED;
+  transform: scale(1.05, 1.05);
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+}
+
+[class*="con"] {
+  color: white;
+  text-align: center;
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+}
+
+[class*="col"] {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  margin: auto;
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+}
+
+[class*="content-wrapper"] {}
+
+[class*="content-wrapper"] {
+  border-radius: 20px;
+}
+
+[class*="position-relative"] {
+  position: relative;
+}
+
+.profile-card.wwdc21 {
+  background: url(devices.png);
+  border-radius: 2.5rem;
+  data-mdb-toggle="animation"data-mdb-animation-start="onHover"data-mdb-animation="fade-in-up"data-mdb-animation-reset="true"style="animation-duration: 500ms;
+
+}
+
+.profile-card.airtags {
+  background: url(ios-13-dark-mode.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2.5rem;
+}
+
+.profile-card.head-bar {
+  background: #7F7FD5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2.5rem;
+}
+
+.profile-card.applewatchspring {
+  background-image: url(apple-watch-fall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2.5rem;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-card.news {
+  background: var(--secondary-system-background) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2.5rem;
+}
+
+.profile-card.homepod14 {
+  background: radial-gradient(ellipse at 5% 5%, #6c62c2 0%, rgba(254, 200, 51, 0) 75%), radial-gradient(ellipse at 95% 5%, #00cdfb 0%, rgba(253, 193, 167, 0) 75%), radial-gradient(ellipse at 95% 95%, #8276cb 15%, rgba(228, 105, 154, 0) 75%), radial-gradient(ellipse at 5% 95%, #ff46cf 30%, rgba(235, 85, 81, 0) 75%);
+  border-radius: 2.5rem;
+  font-family: -apple-system-font, BlinkMacSystemFont, SF Pro Display, sans-serif;
+  box-shadow: 0 0 90px #6e00ff;
+}
+
+.profile-card.iphone12 {
+  background: -o-radial-gradient(5% 5%, ellipse, #897ee9 0%, rgba(254, 200, 51, 0) 75%), -o-radial-gradient(95% 5%, ellipse, #008dbf 0%, rgba(253, 193, 167, 0) 75%), -o-radial-gradient(95% 95%, ellipse, #4dd9c2 15%, rgba(228, 105, 154, 0) 75%), -o-radial-gradient(5% 95%, ellipse, #ff4646 30%, rgba(235, 85, 81, 0) 75%);
+  background: radial-gradient(ellipse at 5% 5%, #897ee9 0%, rgba(254, 200, 51, 0) 75%), radial-gradient(ellipse at 95% 5%, #008dbf 0%, rgba(253, 193, 167, 0) 75%), radial-gradient(ellipse at 95% 95%, #4dd9c2 15%, rgba(228, 105, 154, 0) 75%), radial-gradient(ellipse at 5% 95%, #ff4646 30%, rgba(235, 85, 81, 0) 75%);
+  background: radial-gradient(ellipse at 5% 5%, #897ee9 0%, rgba(254, 200, 51, 0) 75%), radial-gradient(ellipse at 95% 5%, #008dbf 0%, rgba(253, 193, 167, 0) 75%), radial-gradient(ellipse at 95% 95%, #4dd9c2 15%, rgba(228, 105, 154, 0) 75%), radial-gradient(ellipse at 5% 95%, #ff4646 30%, rgba(235, 85, 81, 0) 75%);
+  border-radius: 2.5rem;
+  gradient(ellipse at 5% 5%, #fb6200, rgb(251 98 0/0%) 75%),
+  radial-gradient(ellipse at 95% 5%, #ffb800 0%, #ffb80000 75%),
+  radial-gradient(ellipse at 95% 95%, #2a3b4f 0%, rgb(42 59 79/0%) 75%),
+  radial-gradient(ellipse at 5% 95%, #76a8d5 0%, #76a8d500 75%);
+  font-family: -apple-system-font, BlinkMacSystemFont, SF Pro Display, sans-serif;
+  box-shadow: 0 0 100px #00b8ff;
+}
+
+.profile-card.applewatch7 {
+  background: radial-gradient(ellipse at 5% 5%, #25aed5 0%, rgba(254, 200, 51, 0) 75%), radial-gradient(ellipse at 25% 5%, #022406 0%, rgba(253, 193, 167, 0) 75%), radial-gradient(ellipse at 95% 95%, #273036 15%, rgba(228, 105, 154, 0) 75%), radial-gradient(ellipse at 5% 95%, #ff2525 30%, rgba(235, 85, 81, 0) 75%);
+  background: radial-gradient(ellipse at 5% 5%, #25aed5 0%, rgba(254, 200, 51, 0) 75%), radial-gradient(ellipse at 25% 5%, #022406 0%, rgba(253, 193, 167, 0) 75%), radial-gradient(ellipse at 95% 95%, #273036 15%, rgba(228, 105, 154, 0) 75%), radial-gradient(ellipse at 5% 95%, #ff2525 30%, rgba(235, 85, 81, 0) 75%);
+  border-radius: 2.5rem;
+  font-family: -apple-system-font, BlinkMacSystemFont, SF Pro Display, sans-serif;
+  box-shadow: 0 0 100px #ff546b;
+}
+
+.homepodos figure.image-device {
+  background-image: url(homepod-mini-2021.png);
+}
+
+.iphone figure.image-device {
+  background-image: url(iphone-13.png);
+}
+
+.applewatch7 figure.image-device {
+  background-image: url(apple-watch-fall.png);
+}
+
+.image-device {
+  background-size: cover;
+  width: 390px;
+  height: 293px;
+  left: 50%;
+  margin-left: -195px;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body {
+  background-color: black;
+}
+
+[class*="WWDC21-Div"] {
+  position: relative;
+  width: 80vw;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: black;
+  transition: .8s cubic-bezier(.2, .8, .2, 1);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.fs-2 {
+  font-weight: 600 !important;
+}
+
+.rounded-pill {
+  background-color: var(--system-blue) !important;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
