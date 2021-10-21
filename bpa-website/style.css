@@ -88,3 +88,26 @@ span {
     grid-area: 2/1;
     padding-top: 8vh;
 }
+h3{
+  font-family: Inter, sans-serif;
+}
+#therm-title{
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+#inform-svg{
+  display: block;
+  margin: auto;
+  max-width: 370px;
+}
+#inform-container{
+  background-color: #2b3335;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+#inform-col{
+  margin-bottom: 5%;
+}
