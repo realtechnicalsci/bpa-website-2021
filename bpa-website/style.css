@@ -28,7 +28,6 @@ font-family: Inter, sans-serif;
 font-weight: 800;
 }
 #section2{
-    height: 1000px;
     scroll-behavior: smooth;
     background-color: #4F6367;
     font-family: Inter, sans-serif;
@@ -110,4 +109,7 @@ h3{
 }
 #inform-col{
   margin-bottom: 5%;
+}
+.inform-svg-1{
+  padding: 50px;
 }
