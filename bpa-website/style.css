@@ -37,6 +37,7 @@ font-weight: 800;
     scroll-behavior: smooth;
     background-color: #4F6367;
     font-family: Inter, sans-serif;
+    padding-top: 6vh;
 }
 #down-arrow{
     width: 50px;
@@ -141,5 +142,11 @@ h3{
     text-align: right;
     padding-left: 0;
     padding-right: 0;
+  }
+  #info-row-1{
+    padding-top: 0;
+  }
+  #title{
+    padding-top: 0%;
   }
 }
