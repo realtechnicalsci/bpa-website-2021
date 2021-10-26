@@ -1,3 +1,5 @@
+/*font-family: "Anicons Regular", sans-serif;*/
+/*font-family: "Anicons Color", sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -80,10 +82,14 @@ span {
   }
 .info-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
+    padding: 10px;
 }
 #info-row-1{
     padding-top: 8vh;
+    padding: 50px;
+    background-color: turquoise;
+    background-clip: content-box;
 }
 #title{
     text-align: center;
@@ -94,6 +100,7 @@ span {
     color: #f7f7f7;
     grid-area: 2/1;
     padding-top: 8vh;
+    padding-bottom: 8vh !important;
     padding-bottom: 4vh;
 }
 h3{
@@ -122,6 +129,9 @@ h3{
 .inform-svg-1{
   padding: 30px;
 }
+#title-row{
+  margin-bottom: 2vh;
+}
 @media (max-width: 800px){
   .info{
     border: hidden;
@@ -135,7 +145,7 @@ h3{
     grid-area: 1/1;
   }
   #small-1{
-    text-align: left;
+    text-align: right;
     padding-left: 0;
     padding-right: 0;
   }
@@ -146,9 +156,18 @@ h3{
   }
   #info-row-1{
     padding-top: 0;
+    background-color: transparent;
   }
   #title{
-    padding-top: 0%;
     font-size: 3em;
+    background-color: #3a494b;
+  }
+  #down-arrow{
+    width: 80px;
+  }
+  #col-right{
+    margin-right: 0;
+  }
+  .info-grid{
   }
 }
