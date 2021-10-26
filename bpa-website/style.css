@@ -84,11 +84,12 @@ span {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
+    border-radius: 20px;
 }
 #info-row-1{
     padding-top: 8vh;
     padding: 50px;
-    background-color: turquoise;
+    background-color: #2b3335;
     background-clip: content-box;
 }
 #title{
@@ -169,5 +170,11 @@ h3{
     margin-right: 0;
   }
   .info-grid{
+  }
+}
+
+@media (max-width: 975px){
+  .info-title{
+    font-size: calc(1.325rem + .4vw) !important;
   }
 }
