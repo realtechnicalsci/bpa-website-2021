@@ -120,3 +120,26 @@ h3{
 .inform-svg-1{
   padding: 50px;
 }
+@media (max-width: 800px){
+  .info{
+    border: hidden;
+    grid-area: 2/1;
+  }
+  .info-grid{
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+  }
+  .info-title{
+    grid-area: 1/1;
+  }
+  #small-1{
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #small-2{
+    text-align: right;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
