@@ -91,13 +91,13 @@ span {
     padding: 50px;
     background-color: #2b3335;
     background-clip: content-box;
+    border-radius: 70px;
 }
 #title{
     text-align: center;
     border-left: black;
     font-size: 4em;
     font-weight: 700 !important;
-    padding-right: 10px;
     color: #f7f7f7;
     grid-area: 2/1;
     padding-top: 8vh;
@@ -139,7 +139,6 @@ h3{
     grid-area: 2/1;
   }
   .info-grid{
-    grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr;
   }
   .info-title{
